@@ -63,7 +63,6 @@ const Main = () => {
                 <main>
                     <div className="main-container">
                         <h1>Upload an Image</h1>
-
                         <form id='form' onSubmit={handleSubmit}>
                             <input type="file" name='image' id='image' className='image' required onChange={handleChooseImage} />
                             <button className='uploadBtn' type='submit'>Upload</button>
